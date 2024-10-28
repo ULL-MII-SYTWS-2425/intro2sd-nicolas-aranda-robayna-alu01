@@ -2,3 +2,17 @@
 # Práctica: Intro 2sd
 
 Alumno: **[Nicolás Aranda](https://campusdoctoradoyposgrado2425.ull.es/user/view.php?id=24251103382)** - [nicarandar](https://github.com/nicarandar)
+
+Creamos una branch para dejar esta versión de la práctica intro2sd. En el main seguimos con la siguiente.
+
+## Jekyll Search
+https://ull-esit-dmsi.github.io/tema1-introduccion/practicas/jekyll-search/#como-hacerlo
+
+Lo de las baseurl y url no se sabe cuáles son las buenas
+< script type="text/javascript">
+
+  const search = new JekyllSearch(
+    '{{site.url}}/assets/src/search.json',
+    '#search',
+    '#list',
+    '{{site.baseurl}}'
