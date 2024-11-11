@@ -3,9 +3,14 @@
 
 Alumno: **[Nicolás Aranda](https://campusdoctoradoyposgrado2425.ull.es/user/view.php?id=24251103382)** - [nicarandar](https://github.com/nicarandar)
 
+## Kanban Board project conteniendo las incidencias de la rúbrica
+![image](https://github.com/user-attachments/assets/05210160-c177-4c8a-b117-bf76c5ba2e0a)
+
 Creamos una branch para dejar esta versión de la práctica intro2sd. En el main seguimos con la siguiente.
 
-## Jekyll Search
+
+
+# Jekyll Search
 https://ull-esit-dmsi.github.io/tema1-introduccion/practicas/jekyll-search/#como-hacerlo
 
 Lo de las baseurl y url no se sabe cuáles son las buenas
