@@ -8,6 +8,11 @@ Alumno: **[Nicolás Aranda](https://campusdoctoradoyposgrado2425.ull.es/user/vie
 
 Creamos una branch para dejar esta versión de la práctica intro2sd. En el main seguimos con la siguiente.
 
+## sdfsd
+
+![image](https://github.com/user-attachments/assets/1c27eb60-1d06-4ec7-86d8-15218d225250)
+
+
 
 
 # Jekyll Search
