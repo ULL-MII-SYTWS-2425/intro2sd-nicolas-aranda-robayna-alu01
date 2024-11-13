@@ -11,7 +11,11 @@ Creamos una branch para dejar esta versión de la práctica intro2sd. En el main
 ## sdfsd
 
 ![image](https://github.com/user-attachments/assets/1c27eb60-1d06-4ec7-86d8-15218d225250)
+![image](https://github.com/user-attachments/assets/0dc03f1b-c378-430b-a2cb-b4ddf01a2d84)
 
+![image](https://github.com/user-attachments/assets/92991b25-0d65-49a6-a70f-478d61cc1e7d)
+
+![image](https://github.com/user-attachments/assets/70f28cc2-02d3-4e46-87d6-69dbf90e1289)
 
 
 
