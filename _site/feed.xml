@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://mmistakes.github.io/intro2sd-nicolas-aranda-robayna-alu01/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mmistakes.github.io/intro2sd-nicolas-aranda-robayna-alu01/" rel="alternate" type="text/html" /><updated>2024-11-25T09:16:51-05:00</updated><id>https://mmistakes.github.io/intro2sd-nicolas-aranda-robayna-alu01/feed.xml</id><title type="html">Introducción al Desarrollo de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Nicolás Aranda</name></author><entry><title type="html">Informe</title><link href="https://mmistakes.github.io/intro2sd-nicolas-aranda-robayna-alu01/chuchu" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00-04:00</published><updated>2022-10-01T00:00:00-04:00</updated><id>https://mmistakes.github.io/intro2sd-nicolas-aranda-robayna-alu01/informe</id><content type="html" xml:base="https://mmistakes.github.io/intro2sd-nicolas-aranda-robayna-alu01/chuchu"><![CDATA[<h1 id="introducción-al-desarrollo-de-sistemas">Introducción al Desarrollo de Sistemas</h1>
+
+<p><strong>Autor:</strong> James Cadle<br />
+<strong>Fuente:</strong> Developing Information Systems: Practical Guidance for IT Professionals</p>
+
+<h2 id="contenidos-del-capítulo">Contenidos del Capítulo</h2>
+<ol>
+  <li><strong>Propósito y alcance</strong> del desarrollo de sistemas.</li>
+  <li><strong>Etapas típicas</strong> en el proceso de desarrollo.</li>
+  <li><strong>Relación con otras disciplinas</strong> como gestión de proyectos, análisis de negocios y arquitectura de sistemas.</li>
+  <li><strong>Impacto del offshoring y outsourcing</strong> en el desarrollo de sistemas.</li>
+  <li><strong>Visión general</strong> de los capítulos siguientes.</li>
+</ol>
+
+<h2 id="qué-es-el-desarrollo-de-sistemas">¿Qué es el Desarrollo de Sistemas?</h2>
+<p>El desarrollo de sistemas es el proceso estructurado de convertir necesidades de negocio en un sistema operativo de TI. Las etapas comunes incluyen:</p>
+<ul>
+  <li><strong>Estudio de viabilidad:</strong> determinar si el proyecto es viable.</li>
+  <li><strong>Ingeniería de requisitos:</strong> analizar y especificar necesidades del usuario.</li>
+  <li><strong>Diseño del sistema:</strong> planificar cómo el sistema cumplirá los requisitos.</li>
+  <li><strong>Desarrollo:</strong> programar el software necesario.</li>
+  <li><strong>Pruebas e implementación:</strong> verificar y desplegar la solución.</li>
+</ul>
+
+<h2 id="disciplinas-relacionadas">Disciplinas Relacionadas</h2>
+<ul>
+  <li><strong>Gestión de proyectos:</strong> coordinación y planificación de recursos.</li>
+  <li><strong>Análisis de negocios:</strong> investigación de problemas y oportunidades.</li>
+  <li><strong>Arquitectura de sistemas:</strong> desarrollo de una arquitectura que permita la expansión del sistema.</li>
+  <li><strong>Programación y pruebas:</strong> creación del código y verificación de su calidad.</li>
+  <li><strong>Control de calidad y gestión del cambio:</strong> asegurar que los sistemas cumplan con los estándares de calidad.</li>
+</ul>
+
+<h2 id="offshoring-y-outsourcing">Offshoring y Outsourcing</h2>
+<ul>
+  <li><strong>Offshoring:</strong> desarrollo en otros países para reducir costos.</li>
+  <li><strong>Outsourcing:</strong> externalización de desarrollo a empresas especializadas, lo cual puede implicar una pérdida de control sobre sistemas críticos.</li>
+</ul>]]></content><author><name>Nicolás Aranda</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[Introducción al Desarrollo de Sistemas Autor: James Cadle Fuente: Developing Information Systems: Practical Guidance for IT Professionals Contenidos del Capítulo Propósito y alcance del desarrollo de sistemas. Etapas típicas en el proceso de desarrollo. Relación con otras disciplinas como gestión de proyectos, análisis de negocios y arquitectura de sistemas. Impacto del offshoring y outsourcing en el desarrollo de sistemas. Visión general de los capítulos siguientes. ¿Qué es el Desarrollo de Sistemas? El desarrollo de sistemas es el proceso estructurado de convertir necesidades de negocio en un sistema operativo de TI. Las etapas comunes incluyen: Estudio de viabilidad: determinar si el proyecto es viable. Ingeniería de requisitos: analizar y especificar necesidades del usuario. Diseño del sistema: planificar cómo el sistema cumplirá los requisitos. Desarrollo: programar el software necesario. Pruebas e implementación: verificar y desplegar la solución. Disciplinas Relacionadas Gestión de proyectos: coordinación y planificación de recursos. Análisis de negocios: investigación de problemas y oportunidades. Arquitectura de sistemas: desarrollo de una arquitectura que permita la expansión del sistema. Programación y pruebas: creación del código y verificación de su calidad. Control de calidad y gestión del cambio: asegurar que los sistemas cumplan con los estándares de calidad. Offshoring y Outsourcing Offshoring: desarrollo en otros países para reducir costos. Outsourcing: externalización de desarrollo a empresas especializadas, lo cual puede implicar una pérdida de control sobre sistemas críticos.]]></summary></entry></feed>

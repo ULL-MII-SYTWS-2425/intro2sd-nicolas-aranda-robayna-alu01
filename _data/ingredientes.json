@@ -1,0 +1,63 @@
+{
+    "frutas": [
+      {
+        "nombre": "manzana",
+        "calorias_por_100g": 52,
+        "beneficios": ["rico en fibra", "antioxidantes", "vitamina C"]
+      },
+      {
+        "nombre": "banana",
+        "calorias_por_100g": 96,
+        "beneficios": ["alto en potasio", "rico en carbohidratos", "fácil digestión"]
+      }
+    ],
+    "verduras": [
+      {
+        "nombre": "espinaca",
+        "calorias_por_100g": 23,
+        "beneficios": ["rico en hierro", "antioxidantes", "vitamina K"]
+      },
+      {
+        "nombre": "zanahoria",
+        "calorias_por_100g": 41,
+        "beneficios": ["alto en beta-caroteno", "bueno para la vista", "antioxidantes"]
+      }
+    ],
+    "granos": [
+      {
+        "nombre": "quinoa",
+        "calorias_por_100g": 120,
+        "beneficios": ["alta en proteínas", "fuente de aminoácidos esenciales", "sin gluten"]
+      },
+      {
+        "nombre": "arroz integral",
+        "calorias_por_100g": 111,
+        "beneficios": ["alto en fibra", "bueno para el sistema digestivo", "libera energía lentamente"]
+      }
+    ],
+    "proteinas": [
+      {
+        "nombre": "pollo",
+        "calorias_por_100g": 165,
+        "beneficios": ["alto en proteínas", "bajo en grasas saturadas", "bueno para la construcción muscular"]
+      },
+      {
+        "nombre": "lentejas",
+        "calorias_por_100g": 116,
+        "beneficios": ["alto en proteínas vegetales", "rico en hierro", "fuente de fibra"]
+      }
+    ],
+    "grasas_saludables": [
+      {
+        "nombre": "aguacate",
+        "calorias_por_100g": 160,
+        "beneficios": ["rico en grasas monoinsaturadas", "bueno para el corazón", "antioxidantes"]
+      },
+      {
+        "nombre": "almendras",
+        "calorias_por_100g": 576,
+        "beneficios": ["fuente de vitamina E", "rico en grasas saludables", "apoya la salud ósea"]
+      }
+    ]
+  }
+  
