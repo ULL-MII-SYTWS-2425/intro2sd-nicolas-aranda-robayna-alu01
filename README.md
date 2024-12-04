@@ -15,10 +15,12 @@ Creamos una branch para dejar esta versión de la práctica intro2sd. En el main
 ## Se ha creado una Jekyll Collection (recetas)
 ![image](https://github.com/user-attachments/assets/0dc03f1b-c378-430b-a2cb-b4ddf01a2d84)
 ## Se ha hecho uso de un .csv o .json en `_data`
-Se hizo un post en el que se cargan los datos de un archivo .json de frutas con sus propiedades.
+
+<p>Se hizo un post en el que se cargan los datos de un archivo .json de frutas con sus propiedades.</p>
+
 ![image](https://github.com/user-attachments/assets/92991b25-0d65-49a6-a70f-478d61cc1e7d)
 ---
-## Frutas
+### Frutas
 
 {% for fruta in site.data.ingredientes.frutas %}
 - **{{ fruta.nombre }}** ({{ fruta.calorias_por_100g }} cal/100g)
@@ -31,7 +33,8 @@ Se hizo un post en el que se cargan los datos de un archivo .json de frutas con 
 ![image](https://github.com/user-attachments/assets/70f28cc2-02d3-4e46-87d6-69dbf90e1289)
 
 ## Se ha hecho uso de liquid
-EL uso de liquid que se ha hecho ha sido añadir un mensaje con una condición if-else si la fecha de la publicación es la misma que la actual o anterior. 
+<p>EL uso de liquid que se ha hecho ha sido añadir un mensaje con una condición if-else si la fecha de la publicación es la misma que la actual o anterior. </p>
+
 ---
 
 {% if page.date | date: "%Y-%m-%d" == site.time | date: "%Y-%m-%d" %}
@@ -41,6 +44,13 @@ EL uso de liquid que se ha hecho ha sido añadir un mensaje con una condición i
 {% endif %}
 
 ---
+## Ha reconfigurado los defaults del _config.yml
+Se han modificado el perfil del autor, el footer, los colores del tema y las colecciones para añadir la nueva colección de recetas. Estos han sido los cambios más destacados:
+
+![image](https://github.com/user-attachments/assets/887a16b1-6cf5-4aba-990a-f45e5fe9a929)
+![image](https://github.com/user-attachments/assets/a61c6d13-3e19-4b7c-8b0c-6d3d2c60df2a)
+  
+
 # Jekyll Search
 https://ull-esit-dmsi.github.io/tema1-introduccion/practicas/jekyll-search/#como-hacerlo
 
