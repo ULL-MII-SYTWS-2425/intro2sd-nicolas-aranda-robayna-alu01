@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2a0777f4-0f51-47c6-aa0f-92dc6b1453da/deploy-status)](https://app.netlify.com/sites/intros2d-nicarandar/deploys)
-
 # Práctica: Jekyll Search
 
 Alumno: **[Nicolás Aranda](https://campusdoctoradoyposgrado2425.ull.es/user/view.php?id=24251103382)** - [nicarandar](https://github.com/nicarandar)
