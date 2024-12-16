@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ULL-ESIT-DMSI/intro2sd-template#readme",
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "whatwg-fetch": "^3.6.20"
   }
 }
