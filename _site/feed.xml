@@ -1,39 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/" rel="alternate" type="text/html" /><updated>2024-12-16T09:06:49-05:00</updated><id>http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/feed.xml</id><title type="html">Introducción al Desarrollo de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Nicolás Aranda</name></author><entry><title type="html">Resumen capítulo 2</title><link href="http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/chachi" rel="alternate" type="text/html" title="Resumen capítulo 2" /><published>2023-12-04T00:00:00-05:00</published><updated>2023-12-04T00:00:00-05:00</updated><id>http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/informe</id><content type="html" xml:base="http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/chachi"><![CDATA[{{ page.color }}
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/feed.xml" rel="self" type="application/atom+xml" /><link href="https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/" rel="alternate" type="text/html" /><updated>2024-12-16T09:15:52-05:00</updated><id>https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/feed.xml</id><title type="html">Introducción al Desarrollo de Sistemas</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Nicolás Aranda</name></author><entry><title type="html">Resumen capítulo 2</title><link href="https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/chachi" rel="alternate" type="text/html" title="Resumen capítulo 2" /><published>2023-12-04T00:00:00-05:00</published><updated>2023-12-04T00:00:00-05:00</updated><id>https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/informe</id><content type="html" xml:base="https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/chachi"><![CDATA[<h1 id="chapter-2-lifecycle-types-and-their-rationales">Chapter 2: Lifecycle Types and Their Rationales</h1>
 
-# Chapter 2: Lifecycle Types and Their Rationales
+<p><strong>Author:</strong> James Cadle<br />
+<strong>Resource:</strong> Developing Information Systems: Practical Guidance for IT Professionals</p>
 
-**Author:** James Cadle  
-**Resource:** Developing Information Systems: Practical Guidance for IT Professionals  
+<p>This chapter introduces different <strong>System Development Lifecycles (SDLCs)</strong> and their application. It explores linear and evolutionary approaches, Agile, and hybrid methods, helping to decide the best approach.</p>
 
-This chapter introduces different **System Development Lifecycles (SDLCs)** and their application. It explores linear and evolutionary approaches, Agile, and hybrid methods, helping to decide the best approach.
+<h2 id="key-concepts">Key Concepts</h2>
 
-## Key Concepts
+<h3 id="what-is-an-sdlc">What is an SDLC?</h3>
+<p>An SDLC is a framework guiding the stages of system development, including feasibility study, requirements, design, development, testing, and implementation. These stages ensure structured and efficient system delivery.</p>
 
-### What is an SDLC?
-An SDLC is a framework guiding the stages of system development, including feasibility study, requirements, design, development, testing, and implementation. These stages ensure structured and efficient system delivery.
+<h3 id="linear-vs-evolutionary-approaches">Linear vs. Evolutionary Approaches</h3>
+<ul>
+  <li><strong>Linear:</strong> Follows a sequential flow (e.g., Waterfall, V-Model). Best for stable requirements but less adaptable to change.</li>
+  <li><strong>Evolutionary:</strong> Iterative and adaptive (e.g., Spiral, Agile). Ideal for unclear requirements or innovation.</li>
+</ul>
 
-### Linear vs. Evolutionary Approaches
-- **Linear:** Follows a sequential flow (e.g., Waterfall, V-Model). Best for stable requirements but less adaptable to change.
-- **Evolutionary:** Iterative and adaptive (e.g., Spiral, Agile). Ideal for unclear requirements or innovation.
+<h3 id="lifecycle-examples">Lifecycle Examples</h3>
+<ol>
+  <li><strong>Waterfall:</strong> Rigid and step-by-step. Strong for well-defined projects but struggles with changing requirements.</li>
+  <li><strong>V-Model:</strong> Enhances testing and quality assurance. Suitable for safety-critical systems.</li>
+  <li><strong>Incremental:</strong> Delivers functionality in parts, allowing earlier customer feedback.</li>
+  <li><strong>Spiral:</strong> Focuses on risk reduction through iterations and prototypes.</li>
+  <li><strong>Agile:</strong> Collaborative and iterative. Excellent for fast-changing environments but requires close customer involvement.</li>
+</ol>
 
-### Lifecycle Examples
-1. **Waterfall:** Rigid and step-by-step. Strong for well-defined projects but struggles with changing requirements.
-2. **V-Model:** Enhances testing and quality assurance. Suitable for safety-critical systems.
-3. **Incremental:** Delivers functionality in parts, allowing earlier customer feedback.
-4. **Spiral:** Focuses on risk reduction through iterations and prototypes.
-5. **Agile:** Collaborative and iterative. Excellent for fast-changing environments but requires close customer involvement.
+<h2 id="impact-of-agile">Impact of Agile</h2>
+<p>Agile revolutionized SDLCs with its focus on collaboration, adaptability, and delivering working software quickly. While effective for small teams, challenges arise in regulated environments or large-scale projects.</p>
 
-## Impact of Agile
-Agile revolutionized SDLCs with its focus on collaboration, adaptability, and delivering working software quickly. While effective for small teams, challenges arise in regulated environments or large-scale projects.
+<h2 id="choosing-the-right-approach">Choosing the Right Approach</h2>
+<p>Selecting an SDLC depends on factors like:</p>
+<ul>
+  <li><strong>Complexity:</strong> Simple problems suit Waterfall; complex ones may need Spiral or Agile.</li>
+  <li><strong>Team Experience:</strong> Familiarity with the approach often ensures success.</li>
+  <li><strong>Requirements Stability:</strong> Stable requirements favor linear methods; evolving ones need iterative approaches.</li>
+  <li><strong>Customer Involvement:</strong> High involvement from customers fits with Agile; low involvement aligns with linear models.</li>
+</ul>
 
-## Choosing the Right Approach
-Selecting an SDLC depends on factors like:
-- **Complexity:** Simple problems suit Waterfall; complex ones may need Spiral or Agile.
-- **Team Experience:** Familiarity with the approach often ensures success.
-- **Requirements Stability:** Stable requirements favor linear methods; evolving ones need iterative approaches.
-- **Customer Involvement:** High involvement from customers fits with Agile; low involvement aligns with linear models.
-
-By tailoring the SDLC to the project's needs, organizations can balance flexibility, quality, and efficiency effectively.]]></content><author><name>Nicolás Aranda</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Informe</title><link href="http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/chuchu" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00-05:00</published><updated>2022-10-01T00:00:00-05:00</updated><id>http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/informe</id><content type="html" xml:base="http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/chuchu"><![CDATA[<h1 id="introducción-al-desarrollo-de-sistemas">Introducción al Desarrollo de Sistemas</h1>
+<p>By tailoring the SDLC to the project&#8217;s needs, organizations can balance flexibility, quality, and efficiency effectively.</p>]]></content><author><name>Nicolás Aranda</name></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Informe</title><link href="https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/chuchu" rel="alternate" type="text/html" title="Informe" /><published>2022-10-01T00:00:00-05:00</published><updated>2022-10-01T00:00:00-05:00</updated><id>https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/informe</id><content type="html" xml:base="https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/chuchu"><![CDATA[<h1 id="introducción-al-desarrollo-de-sistemas">Introducción al Desarrollo de Sistemas</h1>
 
 <p><strong>Autor:</strong> James Cadle<br />
 <strong>Fuente:</strong> Developing Information Systems: Practical Guidance for IT Professionals</p>
