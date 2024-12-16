@@ -5,11 +5,6 @@ Alumno: **[Nicolás Aranda](https://campusdoctoradoyposgrado2425.ull.es/user/vie
 ## Kanban Board project conteniendo las incidencias de la rúbrica
 ![image](https://github.com/user-attachments/assets/b95c2ab1-f446-400a-ba1d-1c3c4f237f43)
 
-## Github Pages
-(https://ull-mii-sytws-2425.github.io/intro2sd-nicolas-aranda-robayna-alu01/)
-
-![image](https://github.com/user-attachments/assets/1c27eb60-1d06-4ec7-86d8-15218d225250)
-
 ## Resumen del capítulo 2
 
 El enlace a la Bibliografía no permitía el acceso, pero en internet se encontró un pdf con facilidad.
