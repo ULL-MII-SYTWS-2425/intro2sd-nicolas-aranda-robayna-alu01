@@ -3,7 +3,7 @@ task :serve do
 end
 
 task :build do
-  sh "bundle exec jekyll build --future -V"
+  sh "bundle exec jekyll build --baseurl /intro2sd-nicolas-aranda-robayna-alu01 --future -V"
 end
 
 task :build do
