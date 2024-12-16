@@ -236,11 +236,14 @@ timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_t
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # mimic GitHub Pages with --safe
 whitelist:
