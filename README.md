@@ -49,6 +49,10 @@ Se han modificado el perfil del autor, el footer, los colores del tema y las col
 
 ![image](https://github.com/user-attachments/assets/887a16b1-6cf5-4aba-990a-f45e5fe9a929)
 ![image](https://github.com/user-attachments/assets/a61c6d13-3e19-4b7c-8b0c-6d3d2c60df2a)
+
+## Página Error 404 Personalizada
+
+![image](https://github.com/user-attachments/assets/d3a30c88-6e8c-4a72-9a59-34f8cbbfb177)
   
 
 # Jekyll Search
