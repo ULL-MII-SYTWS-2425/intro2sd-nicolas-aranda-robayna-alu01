@@ -10,7 +10,7 @@ title: Search
   <br/>
   <input class="input" id="searchBar" type="text" name="searchBar" 
         autofocus 
-        placeholder="e.g. Promise" 
+        placeholder="ej. desayuno" 
         autocomplete="off">
   
   <ul class="list  list--results" id="list">
