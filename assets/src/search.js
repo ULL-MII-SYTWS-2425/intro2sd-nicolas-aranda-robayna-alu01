@@ -1,35 +1,33 @@
 class JekyllSearch {
   constructor({ dataSource, searchField, resultsList, siteURL }) {
-    this.dataSource = dataSource
-    this.searchField = document.querySelector(searchField)
-    this.resultsList = document.querySelector(resultsList)
-    this.siteURL = siteURL
+    this.dataSource = dataSource;
+    this.searchField = document.querySelector(searchField);
+    this.resultsList = document.querySelector(resultsList);
+    this.siteURL = siteURL;
 
     this.data = [];
   }
 
   fetchedData() {
-    return fetch(this.dataSource, { mode: 'no-cors' })
+    return fetch(this.dataSource)
       .then(blob => blob.json())
+      .catch(error => {
+        console.error("Error fetching data:", error);
+        return [];
+      });
   }
 
   async findResults() {
-    this.data = await this.fetchedData();
+    this.data = await this.fetchedData()
 
-    const query = this.searchField.value.trim();
+    const query = this.searchField.value.trim()
     if (!query) return []; // Si no hay input, no buscar
 
     try {
-      const regex = new RegExp(query
-        .replace(/(\s+)/g, '\\s*') // Manejo de espacios
-        .replace(/a/g, '[aá]')
-        .replace(/e/g, '[eé]')
-        .replace(/i/g, '[ií]')
-        .replace(/o/g, '[oó]')
-        .replace(/u/g, '[uú]'), 'i');
+      const regex = new RegExp(query, 'i')
       return this.data.filter(item => {
-        return item.title.match(regex) || item.content.match(regex)
-      })
+        return item.title.match(regex) || item.content.match(regex);
+      });
     } catch (error) {
       console.error('Invalid search pattern:', error.message);
       return [];
@@ -37,11 +35,9 @@ class JekyllSearch {
   }
 
   async displayResults() {
-    const results = await this.findResults()
-    //console.log('this.siteURL = ',this.siteURL)
+    const results = await this.findResults();
 
     const html = results.map(item => {
-      //console.log(item)
       return `
           <li class="result">
               <article class="result__article  article">
@@ -50,33 +46,33 @@ class JekyllSearch {
                   </h4>
                   <p>${item.excerpt}</p>
               </article>
-          </li>`
-    }).join('')
-    if ((results.length == 0) || (this.searchField.value == '')) {
-      this.resultsList.innerHTML = `<p>No se ha encontrado ningún resultado.</p>`
+          </li>`;
+    }).join('');
+
+    if (results.length === 0 || this.searchField.value === '') {
+      this.resultsList.innerHTML = `<p>No se ha encontrado ningún resultado.</p>`;
     } else {
-      this.resultsList.innerHTML = html
+      this.resultsList.innerHTML = html;
     }
   }
 
   init() {
-    const url = new URL(document.location)
+    const url = new URL(document.location);
     if (url.searchParams.get("search")) {
-      this.searchField.value = url.searchParams.get("search")
-      this.displayResults()
+      this.searchField.value = url.searchParams.get("search");
+      this.displayResults();
     }
     this.searchField.addEventListener('keyup', () => {
-      this.displayResults()
-      // So that when going back in the browser we keep the search
-      url.searchParams.set("search", this.searchField.value)
-      window.history.pushState('', '', url.href)
-    })
+      this.displayResults();
+      url.searchParams.set("search", this.searchField.value);
+      window.history.pushState('', '', url.href);
+    });
 
-    // to not send the form each time <enter> is pressed
+    // Para evitar que el formulario se envíe al presionar Enter
     this.searchField.addEventListener('keypress', event => {
-      if (event.keyCode == 13) {
-        event.preventDefault()
+      if (event.keyCode === 13) {
+        event.preventDefault();
       }
-    })
+    });
   }
 }
