@@ -53,14 +53,13 @@ class JekyllSearch {
           </li>`
     }).join('')
     if ((results.length == 0) || (this.searchField.value == '')) {
-      this.resultsList.innerHTML = `<p>Sorry, nothing was found</p>`
+      this.resultsList.innerHTML = `<p>No se ha encontrado ningún resultado.</p>`
     } else {
       this.resultsList.innerHTML = html
     }
   }
 
   init() {
-    console.log("init")
     const url = new URL(document.location)
     if (url.searchParams.get("search")) {
       this.searchField.value = url.searchParams.get("search")

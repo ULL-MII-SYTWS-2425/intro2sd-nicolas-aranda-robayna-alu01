@@ -1,1 +1,1 @@
-Sitemap: https://intros2d-nicarandar.netlify.app//intro2sd-nicolas-aranda-robayna-alu01/sitemap.xml
+Sitemap: http://localhost:4444/intro2sd-nicolas-aranda-robayna-alu01/sitemap.xml

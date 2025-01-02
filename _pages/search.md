@@ -6,9 +6,9 @@ title: Search
 {% capture initSearch %}
 
 <form id="search-form" action="">
-  <label class="label" for="search">Search term (accepts a regex):</label>
+  <label class="label" for="searchBar">Término de búsqueda (acepta regex):</label>
   <br/>
-  <input class="input" id="search" type="text" name="search" 
+  <input class="input" id="searchBar" type="text" name="searchBar" 
         autofocus 
         placeholder="e.g. Promise" 
         autocomplete="off">
@@ -21,13 +21,13 @@ title: Search
 <script type="text/javascript" src='{{site.baseurl}}/assets/src/search.js'></script>
 
 <script type="text/javascript">
-  const search = new JekyllSearch({
+  const jekyllSearch = new JekyllSearch({
     dataSource: '{{site.baseurl}}/assets/src/search.json',
-    searchField: '#search',
+    searchField: '#searchBar',
     resultsList: '#list',
     siteURL: '{{site.baseurl}}'
   });
-  search.init(); 
+  jekyllSearch.init(); 
 </script>
 
 <noscript>Please enable JavaScript to use the search form.</noscript>
